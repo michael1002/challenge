@@ -1,19 +1,20 @@
 import { useEffect, useState } from 'react'
-import Slider from './Slider';
-import Caption from './Caption';
+import Slider from './Slider/Slider';
+import Caption from './Caption/Caption';
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Unstable_Grid2';
-import Footer from './Footer';
+import Footer from './Footer/Footer';
 
 export default function ShirtInformation() {
   const [shirts, setShirts] = useState([]);
   const [color, setColor] = useState(0);
   const [size, setSize] = useState(0);
   const [loading, setLoading] = useState(true);
+  const API = 'http://localhost:1337/api/v1/posts';
 
   useEffect(() => {
     async function getData() {
-      const request = await fetch('http://localhost:1337/api/v1/posts');
+      const request = await fetch(API);
       const data = await request.json();
       setShirts(data);
       setLoading(false);
