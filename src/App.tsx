@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Information from './components/Information';
+import ShirtInformation from './components/ShirtInformation';
 
 function App() {
   return (
     <div className="App">
-      <Information />
+      <ShirtInformation />
     </div >
   );
 }

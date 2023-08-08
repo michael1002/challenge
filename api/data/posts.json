@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "price": "35,99",
+    "color": "black",
+    "category": "Shirt",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "images": [
+      "http://localhost:1337/vorschau_shirt.jpg",
+      "http://localhost:1337/vorschau_vorne.jpg",
+      "http://localhost:1337/vorschau_hinten.jpg",
+      "http://localhost:1337/vorschau_neck.jpg"
+    ],
+    "icon": "http://localhost:1337/black_shirt.jpg"
+  },
+  {
+    "id": 2,
+    "price": "35,99",
+    "color": "pink",
+    "category": "Shirt",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "images": [
+      "http://localhost:1337/vorschau_shirt.jpg",
+      "http://localhost:1337/vorschau_vorne.jpg",
+      "http://localhost:1337/vorschau_hinten.jpg",
+      "http://localhost:1337/vorschau_neck.jpg"
+    ],
+    "icon": "http://localhost:1337/pink_shirt.jpg"
+  },
+  {
+    "id": 3,
+    "price": "35,99",
+    "color": "red",
+    "category": "Shirt",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "images": [
+      "http://localhost:1337/vorschau_shirt.jpg",
+      "http://localhost:1337/vorschau_vorne.jpg",
+      "http://localhost:1337/vorschau_hinten.jpg",
+      "http://localhost:1337/vorschau_neck.jpg"
+    ],
+    "icon": "http://localhost:1337/red_shirt.jpg"
+  },
+  {
+    "id": 4,
+    "price": "35,99",
+    "color": "blue",
+    "category": "Shirt",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "images": [
+      "http://localhost:1337/vorschau_shirt.jpg",
+      "http://localhost:1337/vorschau_vorne.jpg",
+      "http://localhost:1337/vorschau_hinten.jpg",
+      "http://localhost:1337/vorschau_neck.jpg"
+    ],
+    "icon": "http://localhost:1337/blue_shirt.jpg"
+  },
+  {
+    "id": 5,
+    "price": "32,99",
+    "color": "yellow",
+    "category": "Shirt",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "images": [
+      "http://localhost:1337/vorschau_shirt.jpg",
+      "http://localhost:1337/vorschau_vorne.jpg",
+      "http://localhost:1337/vorschau_hinten.jpg",
+      "http://localhost:1337/vorschau_neck.jpg"
+    ],
+    "icon": "http://localhost:1337/yellow_shirt.jpg"
+  }
+]
